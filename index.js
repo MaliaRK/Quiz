@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 import chalk from "chalk";
 console.log(chalk.yellowBright.underline('\n\t\t"MULTIPLE CHOICE QUESTIONS"\n'));
