@@ -4,7 +4,7 @@ import chalk from "chalk";
 console.log(chalk.yellowBright.underline('\n\t\t"MULTIPLE CHOICE QUESTIONS"\n'));
 const mcqs = await inquirer.prompt([
     {
-        message: "Q1: What are the three main 'simple types' in TypeScript?",
+        message: "\nQ1: What are the three main 'simple types' in TypeScript?",
         type: "list",
         name: "Q1",
         choices: [
@@ -15,7 +15,7 @@ const mcqs = await inquirer.prompt([
         ],
     },
     {
-        message: "Q2: What type of assignment is this variable, `const fullName: string = 'Cardenal Loyal';`?",
+        message: "\nQ2: What type of assignment is this variable, `const fullName: string = 'Cardenal Loyal';`?",
         type: "list",
         name: "Q2",
         choices: [
@@ -24,7 +24,7 @@ const mcqs = await inquirer.prompt([
         ],
     },
     {
-        message: "Q3: True or False: TypeScript can always correctly infer a variables type.",
+        message: "\nQ3: True or False: TypeScript can always correctly infer a variables type.",
         type: "list",
         name: "Q3",
         choices: [
@@ -33,7 +33,7 @@ const mcqs = await inquirer.prompt([
         ],
     },
     {
-        message: "Q4: You can disable implicit variable type assignment by enabling the compiler option:",
+        message: "\nQ4: You can disable implicit variable type assignment by enabling the compiler option:",
         type: "list",
         name: "Q4",
         choices: [
@@ -44,7 +44,7 @@ const mcqs = await inquirer.prompt([
         ],
     },
     {
-        message: "Q5: You can enable 'undefined' and 'null' types to be accounted for by enabling the compiler property:",
+        message: "\nQ5: You can enable 'undefined' and 'null' types to be accounted for by enabling the compiler property:",
         type: "list",
         name: "Q5",
         choices: [
@@ -55,7 +55,7 @@ const mcqs = await inquirer.prompt([
         ],
     },
     {
-        message: "Q6: ______ is similar to 'any', but a safer alternative when uncertain about the type.",
+        message: "\nQ6: ______ is similar to 'any', but a safer alternative when uncertain about the type.",
         type: "list",
         name: "Q6",
         choices: [
@@ -66,7 +66,7 @@ const mcqs = await inquirer.prompt([
         ],
     },
     {
-        message: "Q7: What is the inherited type for the variable example in `const example = ['Robert']`?",
+        message: "\nQ7: What is the inherited type for the variable example in `const example = ['Robert']`?",
         type: "list",
         name: "Q7",
         choices: [
@@ -77,7 +77,7 @@ const mcqs = await inquirer.prompt([
         ],
     },
     {
-        message: "Q8: What does the 'readonly' access modifier do for an array variable assignment like: `const codeNames: readonly string[] = ['Coding', 'Good']`?",
+        message: "\nQ8: What does the 'readonly' access modifier do for an array variable assignment like: `const codeNames: readonly string[] = ['Coding', 'Good']`?",
         type: "list",
         name: "Q8",
         choices: [
@@ -88,7 +88,7 @@ const mcqs = await inquirer.prompt([
         ],
     },
     {
-        message: "Q9: True or False: TypeScript will always correctly infer the type of an array.",
+        message: "\nQ9: True or False: TypeScript will always correctly infer the type of an array.",
         type: "list",
         name: "Q9",
         choices: [
@@ -97,7 +97,7 @@ const mcqs = await inquirer.prompt([
         ],
     },
     {
-        message: "Q10: True or False: a Tuple and an Array are the same thing when discussing types",
+        message: "\nQ10: True or False: a Tuple and an Array are the same thing when discussing types",
         type: "list",
         name: "Q10",
         choices: [
